@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F9CE9C1A7CB9D700038807 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CE9B1A7CB9D700038807 /* main.m */; };
+		13F9CE9F1A7CB9D700038807 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CE9E1A7CB9D700038807 /* AppDelegate.m */; };
+		13F9CEA21A7CB9D700038807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CEA11A7CB9D700038807 /* ViewController.m */; };
+		13F9CEA51A7CB9D700038807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CEA31A7CB9D700038807 /* Main.storyboard */; };
+		13F9CEA71A7CB9D700038807 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CEA61A7CB9D700038807 /* Images.xcassets */; };
+		13F9CEAA1A7CB9D700038807 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CEA81A7CB9D700038807 /* LaunchScreen.xib */; };
+		13F9CEB61A7CB9D800038807 /* OpenGLSnow2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CEB51A7CB9D800038807 /* OpenGLSnow2Tests.m */; };
+		13F9CEC11A7CBA0800038807 /* Vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CEBF1A7CBA0800038807 /* Vertex.glsl */; };
+		13F9CEC21A7CBA0800038807 /* Fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CEC01A7CBA0800038807 /* Fragment.glsl */; };
+		13F9CEC81A7CBA1600038807 /* ShaderCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CEC51A7CBA1600038807 /* ShaderCompiler.m */; };
+		13F9CEC91A7CBA1600038807 /* SnowFlake.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CEC71A7CBA1600038807 /* SnowFlake.m */; };
+		13F9CED21A7CCD2C00038807 /* snow_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CED11A7CCD2C00038807 /* snow_texture.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13F9CEB01A7CB9D800038807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F9CE8E1A7CB9D700038807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F9CE951A7CB9D700038807;
+			remoteInfo = OpenGLSnow2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13F9CE961A7CB9D700038807 /* OpenGLSnow2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLSnow2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F9CE9A1A7CB9D700038807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F9CE9B1A7CB9D700038807 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13F9CE9D1A7CB9D700038807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13F9CE9E1A7CB9D700038807 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13F9CEA01A7CB9D700038807 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13F9CEA11A7CB9D700038807 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13F9CEA41A7CB9D700038807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13F9CEA61A7CB9D700038807 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13F9CEA91A7CB9D700038807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13F9CEAF1A7CB9D800038807 /* OpenGLSnow2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLSnow2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F9CEB41A7CB9D800038807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F9CEB51A7CB9D800038807 /* OpenGLSnow2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLSnow2Tests.m; sourceTree = "<group>"; };
+		13F9CEBF1A7CBA0800038807 /* Vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vertex.glsl; sourceTree = "<group>"; };
+		13F9CEC01A7CBA0800038807 /* Fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fragment.glsl; sourceTree = "<group>"; };
+		13F9CEC31A7CBA1600038807 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		13F9CEC41A7CBA1600038807 /* ShaderCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderCompiler.h; sourceTree = "<group>"; };
+		13F9CEC51A7CBA1600038807 /* ShaderCompiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderCompiler.m; sourceTree = "<group>"; };
+		13F9CEC61A7CBA1600038807 /* SnowFlake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowFlake.h; sourceTree = "<group>"; };
+		13F9CEC71A7CBA1600038807 /* SnowFlake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowFlake.m; sourceTree = "<group>"; };
+		13F9CED11A7CCD2C00038807 /* snow_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_texture.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F9CE931A7CB9D700038807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F9CEAC1A7CB9D800038807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F9CE8D1A7CB9D700038807 = {
+			isa = PBXGroup;
+			children = (
+				13F9CE981A7CB9D700038807 /* OpenGLSnow2 */,
+				13F9CEB21A7CB9D800038807 /* OpenGLSnow2Tests */,
+				13F9CE971A7CB9D700038807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F9CE971A7CB9D700038807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F9CE961A7CB9D700038807 /* OpenGLSnow2.app */,
+				13F9CEAF1A7CB9D800038807 /* OpenGLSnow2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F9CE981A7CB9D700038807 /* OpenGLSnow2 */ = {
+			isa = PBXGroup;
+			children = (
+				13F9CE9D1A7CB9D700038807 /* AppDelegate.h */,
+				13F9CE9E1A7CB9D700038807 /* AppDelegate.m */,
+				13F9CEA01A7CB9D700038807 /* ViewController.h */,
+				13F9CEA11A7CB9D700038807 /* ViewController.m */,
+				13F9CECE1A7CBF3F00038807 /* Classes */,
+				13F9CECD1A7CBF2600038807 /* Shaders */,
+				13F9CECC1A7CBF1500038807 /* Texture */,
+				13F9CEA31A7CB9D700038807 /* Main.storyboard */,
+				13F9CEA61A7CB9D700038807 /* Images.xcassets */,
+				13F9CEA81A7CB9D700038807 /* LaunchScreen.xib */,
+				13F9CE991A7CB9D700038807 /* Supporting Files */,
+			);
+			path = OpenGLSnow2;
+			sourceTree = "<group>";
+		};
+		13F9CE991A7CB9D700038807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13F9CE9A1A7CB9D700038807 /* Info.plist */,
+				13F9CE9B1A7CB9D700038807 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13F9CEB21A7CB9D800038807 /* OpenGLSnow2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13F9CEB51A7CB9D800038807 /* OpenGLSnow2Tests.m */,
+				13F9CEB31A7CB9D800038807 /* Supporting Files */,
+			);
+			path = OpenGLSnow2Tests;
+			sourceTree = "<group>";
+		};
+		13F9CEB31A7CB9D800038807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13F9CEB41A7CB9D800038807 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13F9CECC1A7CBF1500038807 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				13F9CED11A7CCD2C00038807 /* snow_texture.png */,
+			);
+			name = Texture;
+			sourceTree = "<group>";
+		};
+		13F9CECD1A7CBF2600038807 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				13F9CEBF1A7CBA0800038807 /* Vertex.glsl */,
+				13F9CEC01A7CBA0800038807 /* Fragment.glsl */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		13F9CECE1A7CBF3F00038807 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13F9CEC31A7CBA1600038807 /* Common.h */,
+				13F9CEC41A7CBA1600038807 /* ShaderCompiler.h */,
+				13F9CEC51A7CBA1600038807 /* ShaderCompiler.m */,
+				13F9CEC61A7CBA1600038807 /* SnowFlake.h */,
+				13F9CEC71A7CBA1600038807 /* SnowFlake.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F9CE951A7CB9D700038807 /* OpenGLSnow2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F9CEB91A7CB9D800038807 /* Build configuration list for PBXNativeTarget "OpenGLSnow2" */;
+			buildPhases = (
+				13F9CE921A7CB9D700038807 /* Sources */,
+				13F9CE931A7CB9D700038807 /* Frameworks */,
+				13F9CE941A7CB9D700038807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLSnow2;
+			productName = OpenGLSnow2;
+			productReference = 13F9CE961A7CB9D700038807 /* OpenGLSnow2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F9CEAE1A7CB9D800038807 /* OpenGLSnow2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F9CEBC1A7CB9D800038807 /* Build configuration list for PBXNativeTarget "OpenGLSnow2Tests" */;
+			buildPhases = (
+				13F9CEAB1A7CB9D800038807 /* Sources */,
+				13F9CEAC1A7CB9D800038807 /* Frameworks */,
+				13F9CEAD1A7CB9D800038807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F9CEB11A7CB9D800038807 /* PBXTargetDependency */,
+			);
+			name = OpenGLSnow2Tests;
+			productName = OpenGLSnow2Tests;
+			productReference = 13F9CEAF1A7CB9D800038807 /* OpenGLSnow2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F9CE8E1A7CB9D700038807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chuck Gaffney";
+				TargetAttributes = {
+					13F9CE951A7CB9D700038807 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					13F9CEAE1A7CB9D800038807 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 13F9CE951A7CB9D700038807;
+					};
+				};
+			};
+			buildConfigurationList = 13F9CE911A7CB9D700038807 /* Build configuration list for PBXProject "OpenGLSnow2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F9CE8D1A7CB9D700038807;
+			productRefGroup = 13F9CE971A7CB9D700038807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F9CE951A7CB9D700038807 /* OpenGLSnow2 */,
+				13F9CEAE1A7CB9D800038807 /* OpenGLSnow2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F9CE941A7CB9D700038807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F9CED21A7CCD2C00038807 /* snow_texture.png in Resources */,
+				13F9CEA51A7CB9D700038807 /* Main.storyboard in Resources */,
+				13F9CEC11A7CBA0800038807 /* Vertex.glsl in Resources */,
+				13F9CEAA1A7CB9D700038807 /* LaunchScreen.xib in Resources */,
+				13F9CEA71A7CB9D700038807 /* Images.xcassets in Resources */,
+				13F9CEC21A7CBA0800038807 /* Fragment.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F9CEAD1A7CB9D800038807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F9CE921A7CB9D700038807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F9CEA21A7CB9D700038807 /* ViewController.m in Sources */,
+				13F9CEC81A7CBA1600038807 /* ShaderCompiler.m in Sources */,
+				13F9CE9F1A7CB9D700038807 /* AppDelegate.m in Sources */,
+				13F9CEC91A7CBA1600038807 /* SnowFlake.m in Sources */,
+				13F9CE9C1A7CB9D700038807 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F9CEAB1A7CB9D800038807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F9CEB61A7CB9D800038807 /* OpenGLSnow2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13F9CEB11A7CB9D800038807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F9CE951A7CB9D700038807 /* OpenGLSnow2 */;
+			targetProxy = 13F9CEB01A7CB9D800038807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13F9CEA31A7CB9D700038807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F9CEA41A7CB9D700038807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13F9CEA81A7CB9D700038807 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F9CEA91A7CB9D700038807 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13F9CEB71A7CB9D800038807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13F9CEB81A7CB9D800038807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F9CEBA1A7CB9D800038807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = OpenGLSnow2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13F9CEBB1A7CB9D800038807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = OpenGLSnow2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13F9CEBD1A7CB9D800038807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenGLSnow2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLSnow2.app/OpenGLSnow2";
+			};
+			name = Debug;
+		};
+		13F9CEBE1A7CB9D800038807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenGLSnow2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLSnow2.app/OpenGLSnow2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F9CE911A7CB9D700038807 /* Build configuration list for PBXProject "OpenGLSnow2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F9CEB71A7CB9D800038807 /* Debug */,
+				13F9CEB81A7CB9D800038807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F9CEB91A7CB9D800038807 /* Build configuration list for PBXNativeTarget "OpenGLSnow2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F9CEBA1A7CB9D800038807 /* Debug */,
+				13F9CEBB1A7CB9D800038807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F9CEBC1A7CB9D800038807 /* Build configuration list for PBXNativeTarget "OpenGLSnow2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F9CEBD1A7CB9D800038807 /* Debug */,
+				13F9CEBE1A7CB9D800038807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F9CE8E1A7CB9D700038807 /* Project object */;
+}
